@@ -1,0 +1,2 @@
+[debug] Created transactional ClassFileManager with tempDir = /Users/curnowl/Documents/Elsevier/2022/Functional Programming with Scala/Week 3/chemblHack/project/target/scala-2.12/sbt-1.0/classes.bak
+[debug] Removing the temporary directory used for backing up class files: /Users/curnowl/Documents/Elsevier/2022/Functional Programming with Scala/Week 3/chemblHack/project/target/scala-2.12/sbt-1.0/classes.bak
