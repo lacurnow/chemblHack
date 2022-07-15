@@ -1,8 +1,9 @@
 package cbHack
 
-
-
+import cbHack.Main.SlickTables
 import slick.jdbc.PostgresProfile
+
+//Slick models
 
 class Schema {
   case class Domains(
@@ -26,4 +27,6 @@ class Schema {
 
     lazy val domainsTable = TableQuery[DomainTable]
   }
+
+  object SlickTables extends SlickTables(PostgresProfile)
 }
